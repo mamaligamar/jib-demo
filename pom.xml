@@ -78,7 +78,7 @@
                 <version>0.10.1</version>
                 <configuration>
                     <to>
-                        <image>demo:${project.version}</image>
+                        <image>minexa/${project.artifactId}:${project.version}</image>
                     </to>
                 </configuration>
                 <executions>
