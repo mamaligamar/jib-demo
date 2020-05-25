@@ -12,13 +12,13 @@ Set up a container with the created image:
 Then when you run localhost:8080 you will see a table filled with books data.
 
 # DEMO JIB plugin
-This project is a simple springboot project which aim is to illustrate how **jib** plugin works. 
+This project is a simple spring-boot project which aim is to illustrate how **jib** plugin works. 
 
-Jib is a tool from Google which **creates Docker images** in an easy and fast way. No need to create a Docker file, no need to install a Docker daemon, Jib just runs out-of-the-box.
+Jib is a tool from Google which **creates Docker images** in an easy and fast way avoiding the need to create a Docker file.
 
-Jib separates our application into multiple layers, splitting dependencies from classes. So, each time we change the application is no need for Docker to rebuild the entire Java application - just deploy the layers that changed.
+Jib separates the application into multiple layers, splitting dependencies from classes. So, each time a change is made in the application is no need for Docker to rebuild the entire Java application - just deploy the layers that changed.
 
-This plugin generates a docker image for our project locally or in a repository depending on the configuration. Then we just have to set up a container with that image and we have the app running.
+This plugin generates a docker image for our project locally or in a repository depending on the configuration. Then, we just have to set up a container with that image and we have the app running.
 
 More information about jib plugin is available in the following links:
 
