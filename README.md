@@ -1,7 +1,7 @@
 ## Run demo application locally
 ```mvn clea install```
 
-List the docker images and elect the one that has a tag and the name you gave to your image:
+List your docker images and select the one that has the tag and the name you gave to your image:
 
 ```docker images```
 
@@ -9,7 +9,7 @@ Set up a container with the created image:
 
 ```docker run -p 8080:8080 -d your_image```
 
-Then when you run localhost:8080 you will see a table filled with books data.
+Then, navigate to localhost:8080 and you will see a table filled with your container id and IP and a list of books.
 
 # DEMO JIB plugin
 This project is a simple spring-boot project which aim is to illustrate how **jib** plugin works. 
