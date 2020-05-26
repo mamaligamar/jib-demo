@@ -33,7 +33,7 @@ Or remove all the dangling images (no more related with any tagged image):
 
 ```docker rmi $(docker images -q -f dangling=true)```
 
-##Additional information
+## Additional information
 How it works: https://cloud.google.com/java/getting-started/jib
 
 Configuration tutorial: https://dzone.com/articles/create-fast-and-easy-docker-images-with-jib
