@@ -14,7 +14,7 @@ https://github.com/GoogleContainerTools/jib
 ## Run demo application locally
 ```mvn clea install```
 
-List the docker images and elect the one that has a tag and the name you gave to your image:
+List the docker images and select the one that has a tag and the name you gave to your image:
 
 ```docker images```
 
