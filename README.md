@@ -12,7 +12,7 @@ More information about jib plugin is available in the following links:
 https://github.com/GoogleContainerTools/jib
 
 ## Run demo application locally
-```mvn clea install```
+```mvn clean install```
 
 List the docker images and select the one that has a tag and the name you gave to your image:
 
